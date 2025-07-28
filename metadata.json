@@ -1,0 +1,6 @@
+{
+  "name": "국가간 CO₂ 배출량 비교 분석",
+  "description": "전력 소비(Scope 2)로 인한 CO2 배출량을 시장 기반 및 위치 기반 회계 방법을 사용하여 시각화하고 이해하기 위한 대화형 애플리케이션입니다. SusScope2 프레임워크를 기반으로 합니다.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

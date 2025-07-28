@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="16x16" href="/assets/favicon-16x16.svg" />
+    <link rel="icon" type="image/svg+xml" sizes="32x32" href="/assets/favicon-32x32.svg" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#19235a" />
+    <meta name="description" content="국가간 CO₂ 배출량을 비교 분석하는 대시보드 애플리케이션입니다." />
+    <title>국가간 CO₂ 배출량 비교 분석</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'navy': {
+                '50': '#f0f4ff',
+                '100': '#e0e9ff',
+                '200': '#c8d7ff',
+                '300': '#a3baff',
+                '400': '#7c9bff',
+                '500': '#577cff',
+                '600': '#3b5ef9',
+                '700': '#2d49e1',
+                '800': '#283db5',
+                '900': '#263892',
+                '950': '#19235a',
+              },
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/",
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "recharts": "https://esm.sh/recharts@^3.1.0",
+    "@google/genai": "https://esm.sh/@google/genai@^1.11.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-navy-950">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>

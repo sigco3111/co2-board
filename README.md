@@ -3,9 +3,9 @@
 
 이 프로젝트는 두 국가의 전력 소비(Scope 2)로 인한 CO₂ 배출량을 비교 분석하기 위한 대화형 웹 애플리케이션입니다. 사용자는 **위치 기반(Location-based)** 및 **시장 기반(Market-based)** 회계 방식을 통해 배출량을 시각적으로 확인하고, Google Gemini API를 통해 생성된 관련 데이터와 설명을 탐색할 수 있습니다.
 
-실행주소1 : https://sigco3111.github.io/co2-board/
+라이브 데모 : https://sigco3111.github.io/co2-board/
 
-실행주소2 : https://dev-canvas-pi.vercel.app/
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://sigco3111.github.io/co2-board/)
 
 
 ## ✨ 주요 기능
